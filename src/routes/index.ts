@@ -1,6 +1,6 @@
-const Router = require('express').Router
-const userRoutes = require('./user/userRoute')
-const postRoutes = require('./post/postRoute')
+import { Router } from 'express'
+import userRoutes from './user/userRoute'
+import postRoutes from './post/postRoute'
 
 const routes = Router()
 
